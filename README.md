@@ -1,0 +1,1 @@
+This is a front-end design clone of the website Sidecup Family Golf made using HTML, CSS, JavaScript, GSAP, tilt.js and ScrollTrigger

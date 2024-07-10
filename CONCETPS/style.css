@@ -1,0 +1,53 @@
+#parent{
+    /* display:flex will make it's child aligned horizontally */
+    display:flex; 
+
+    /* saare child elements width ke center m aa jayenge qki justify-contetn width ke liye use hota ahi */ 
+    /* justify-content: center;     */
+
+
+    /* saare child elements width ke start m aa jayenge qki justify-contetn width ke liye use hota ahi*/ 
+    /* justify-content: flex-start;     */
+
+
+    /* saare child elements width ke end m aa jayenge qki justify-contetn width ke liye use hota ahi */
+    /* justify-content: flex-end;     */
+
+
+    /* saare child elements width ke bich m space aa jayengi qki justify-contetn width ke liye use hota ahi*/
+    /* justify-content: space-between;   */
+
+
+    /* align-items => use hota hai height ke liye */
+    /* same above concept but for the height(y-axis) */
+    /* align-items: center; */
+
+    /* align-items: start; */
+
+    /* align-items: end; */
+
+
+    /* we can use both properties  */
+    justify-content: center;
+    align-items: end;
+
+    width:500px;
+    height:500px;
+    background-color: black;
+}
+
+#child1{
+    width:100px;
+    height:100px;
+    background-color: red;
+}
+#child2{
+    width:100px;
+    height:100px;
+    background-color: yellow;
+}
+#child3{
+    width:100px;
+    height:100px;
+    background-color: green;
+}

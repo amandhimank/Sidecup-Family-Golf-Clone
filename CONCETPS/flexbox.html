@@ -1,0 +1,34 @@
+<!-- Let's understand the concept of flex box -->
+<!-- generally, elements down to bottom align rehte hai(upper se nicche) -->
+<!-- But, agar humko side by side align krna h kaise krenge??? ==> using flexbox -->
+
+<!-- 
+    1       using flexbox
+    2     ===================>   1  2  3
+    3      display: flex
+    This propoerty is applied to the parent of the childs whom we want to align horizontally
+ -->
+
+
+ <!-- When we apply dispaly:flex
+      Two imaginary axis comes into the picture 
+        1) justify-content (left se right)===> mtlb basically width(x-axis) ke uper kaam krne ke liye yeh use hoga (left to right)
+        2) align-items (top se bottom)===> height(y-axis) pe kaam krne ke liye use hoga (top tpo bottom)
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="parent">
+        <div id="child1"></div>
+        <div id="child2"></div>
+        <div id="child3"></div>
+    </div>
+</body>
+</html>
